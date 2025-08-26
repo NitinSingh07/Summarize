@@ -13,7 +13,7 @@ export default function Home() {
         <HeroSection />
       </div>
       <DemoSection />
-      {/* <HowItWorkSection/> */}
+      <HowItWorkSection/>
       {/* <PricingSection/> */}
       {/* <CTASection/> */}
     </div>
