@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col">
         <HeroSection />
       </div>
-      {/* <DemoSection /> */}
+      <DemoSection />
       {/* <HowItWorkSection/> */}
       {/* <PricingSection/> */}
       {/* <CTASection/> */}
