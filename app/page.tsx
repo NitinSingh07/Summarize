@@ -1,4 +1,4 @@
-import BgGradient from "@/components/home/bggradient";
+import BgGradient from "@/components/common/bggradient";
 import CTASection from "@/components/home/ctasection";
 import DemoSection from "@/components/home/demosection";
 import HeroSection from "@/components/home/herosection";
