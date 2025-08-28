@@ -3,8 +3,11 @@
 import UploadFormInput from "@/components/upload/upload-form-input";
 
 export default function UploadForm() {
-  const handleSubmit = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     console.log("submitted");
+    const formData = new FormData(e.currentTarget);
+    const file = formData.get("file");
   };
 
   return (
